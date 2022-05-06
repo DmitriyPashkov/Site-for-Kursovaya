@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+	Home
+{% endblock %}
+
+{% block content %}
+	<div class="container-fluid">
+		<div class="row">
+			<img class="img-fluid" src="{% static 'images/logotip-jelektronika-955.jpg' %}" width="100%">
+		</div>
+	</div>
+
+	<div class="py-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 mx-auto my-2 text-center">
+					<h1 class="text-capitalize font-weight-bold">
+						Контакты
+					</h1>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container">
+			<p>Адрес: ул.Пушкина 49 </p>
+
+            <p> Номер: +89091234567 </p>
+            <p> Email: elektro@mail.ru </p>
+	</div>
+
+
+{% endblock %}
